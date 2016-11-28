@@ -1,0 +1,10 @@
+.navbar-brand img {
+	width: 40px;
+	height: auto;
+	margin-top: -10px;
+	border-radius: 5000px;
+}
+
+.navbar {
+	background: #072854;
+}
