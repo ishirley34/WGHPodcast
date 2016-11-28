@@ -1,3 +1,5 @@
+/* The colors are blue: #072854, orange: #FF7F00 yellow: #FFDF00  */
+
 .navbar-brand img {
 	width: 40px;
 	height: auto;
@@ -7,4 +9,8 @@
 
 .navbar {
 	background: #072854;
+}
+
+body {
+	background-color: 
 }
