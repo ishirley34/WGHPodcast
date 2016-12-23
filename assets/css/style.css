@@ -80,6 +80,9 @@ iframe {
 h1 {
 	color: #ffffff;
 }
+.row {
+	width: 100%;
+}
 
 /*Media Queries for screen size of 980px*/
 
