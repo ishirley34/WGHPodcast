@@ -73,8 +73,8 @@ html, body {
 }
 
 iframe {
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-bottom: 4px;
+	margin-left: 4px;
 }
 
 h1 {
@@ -88,17 +88,17 @@ h1 {
 
 @media screen and (max-width: 980px) {
 	#firstPanel {
-		margin-left: 1%;
+		margin-left: 5%;
 		width: 98%;
 	}
 	#secondPanel {
-		margin-left: 1%;
+		margin-left: 5%;
 	/*	margin-right: 1%;*/
 		width: 98%;
 		padding: 1%;
 	}
 	#thirdPanel {
-		margin-left: 1%;
+		margin-left: 5%;
 		width: 98%;
 	}
 	iframe {
