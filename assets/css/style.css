@@ -82,19 +82,24 @@ iframe {
 h1 {
 	color: #ffffff;
 	padding: 10px;
+	margin-top: 0;
 }
 .row {
 	width: 98%;
 }
-.brands {
+/*.brands {
 	width: 30%;
 	height: auto;
-}
+}*/
 
 #itunes_logo {
 	border-radius: 3px;
 	height: 34px;
 	width: 110px;
+}
+#google_logo {
+	width: 121.98px;
+	height: 47.2px;
 }
 
 .navbar-toggle {
@@ -106,17 +111,17 @@ h1 {
 
 @media screen and (max-width: 980px) {
 	#firstPanel {
-		margin-left: 5%;
+		margin-left: 3.7%;
 		width: 98%;
 	}
 	#secondPanel {
-		margin-left: 5%;
+		margin-left: 3.7%;
 	/*	margin-right: 1%;*/
 		width: 98%;
 		padding: 1%;
 	}
 	#thirdPanel {
-		margin-left: 5%;
+		margin-left: 3.7%;
 		width: 98%;
 	}
 	iframe {
@@ -125,8 +130,49 @@ h1 {
 	footer {
 		margin-top: 10px;
 		margin-left: 1px;
+		width: 99.6%;
+		margin-bottom: 1px;
 	}
 	.navbar {
+		padding-bottom: 50px;
+	}
+}
+
+/*Media Queries for screen size of 768px*/
+
+@media screen and (max-width: 784px) {
+	.navbar {
+		padding-bottom: 50px;
+	}
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+	#firstPanel {
+		margin-left: 4%;
+	}
+	#secondPanel {
+		margin-left: 4%;
+	}
+	#secondPanel {
+		margin-left: 4%;
+	}
+}
+/*Media Queries for screen size of 496px*/
+
+@media screen and (max-width: 496px) {
+	.navbar {
 		padding-bottom: 32px;
+	}
+	.navbar-toggle {
+		margin-top: 32px;
+	}
+	#firstPanel {
+		margin-left: 5.6%;
+	}
+	#secondPanel {
+		margin-left: 5.6%;
+	}
+	#secondPanel {
+		margin-left: 5.6%;
 	}
 }
