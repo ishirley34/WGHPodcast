@@ -75,3 +75,28 @@ iframe {
 h1 {
 	color: #ffffff;
 }
+
+/*Media Queries for screen size of 980px*/
+
+@media screen and (max-width: 980px) {
+	#firstPanel {
+		margin-left: 1%;
+		width: 98%;
+	}
+	#secondPanel {
+		margin-left: 1%;
+	/*	margin-right: 1%;*/
+		width: 98%;
+		padding: 1%;
+	}
+	#thirdPanel {
+		margin-left: 1%;
+		width: 98%;
+	}
+	iframe {
+		padding: 1%;
+	}
+	footer {
+		margin-top: 10px;
+	}
+}
