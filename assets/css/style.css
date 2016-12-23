@@ -87,13 +87,9 @@ h1 {
 .row {
 	width: 98%;
 }
-/*.brands {
-	width: 30%;
-	height: auto;
-}*/
 
 #itunes_logo {
-	border-radius: 3px;
+	border-radius: 2px;
 	height: 32px;
 	width: 108px;
 }
