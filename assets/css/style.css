@@ -33,11 +33,11 @@ body {
 
 #thirdPanel {
 	background: #072854;
-	height: 600px;
+	height: auto;
 	margin-left: 10px;
 	border: none;
 	border-radius: 10px;
-	padding-top: 2px;
+	padding-top: 5px;
 }
 
 p {
@@ -109,6 +109,7 @@ h1 {
 	width: 98%;
 	height: 98%;
 	margin-top: 2px;
+	opacity: 80%
 }
 /*Media Queries for screen size of 980px*/
 
