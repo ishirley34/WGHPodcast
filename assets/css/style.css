@@ -103,6 +103,10 @@ h1 {
 	margin-top: 5.5%;
 	margin-bottom: 0;
 } 
+
+.twitter-timeline {
+	width: 98%;
+}
 /*Media Queries for screen size of 980px*/
 
 @media screen and (max-width: 980px) {
