@@ -8,7 +8,7 @@
 
 .navbar {
 	background: #072854;
-	padding-bottom: 50px;
+	padding-bottom: 5px;
 	border-color: #FF7F00;
 	border-radius: 10px;
 }
@@ -73,7 +73,7 @@ html, body {
 }
 
 #wrap {
-  min-height: 86.9%;
+  min-height: 87.3%;
 }
 
 iframe {
@@ -114,10 +114,58 @@ h1 {
 }
 .wghLogo {
 	margin: auto;
+	padding-bottom: 5px;
+	position: absolute;
 }
+.wghBanner {
+	height: auto;
+	width: 748.39px;
+	position: relative;
+	right: -25%;
+	margin-top: 15px;
+	padding-bottom: -10px;
+}
+.smLogos {
+	height: 50px;
+	width: auto;
+	margin: 5px;
+	margin-top: 25px;
+	margin-left: 0px;
+	position: relative;
+	/*right: 5%;*/
+	float: right;
+}
+#facebook {
+	margin-right: 5px;
+}
+/*Media Queries for screen size of 1350px*/
+
+@media screen and (max-width: 1350px) {
+
+	.wghBanner {
+		right: -20%;
+	}
+}
+
+/*Media Queries for screen size of 1255px*/
+
+@media screen and (max-width: 1255px) {
+
+	.wghLogo {
+		content: url(../images/WGH_IW_burned.png);
+	}
+	.wghBanner {
+		display: none;
+	}
+	.navbar {
+		padding-bottom: 20px;
+	}
+}
+
 /*Media Queries for screen size of 980px*/
 
 @media screen and (max-width: 980px) {
+
 	#firstPanel {
 		margin-left: 3.7%;
 		width: 98%;
@@ -142,14 +190,14 @@ h1 {
 		margin-bottom: 1px;
 	}
 	.navbar {
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 }
-
+/*Media Queries for screen size of 784px*/
 
 @media screen and (max-width: 784px) {
 	.navbar {
-		padding-bottom: 45px;
+		padding-bottom: 20px;
 	}
 	.navbar-toggle {
 		margin-top: 30px;
@@ -163,15 +211,24 @@ h1 {
 	#thirdPanel {
 		margin-left: 4%;
 	}
-	.wghLogo {
-		content: url(../images/WGH_IW_burned.png);
+
+}
+/*Media Queries for screen size of 767px*/
+
+@media screen and (max-width: 767px) {
+	.smLogos {
+		/*left: 78%;*/
+		margin-top: -30px;
+	}
+	.navbar {
+		padding-bottom: 10px;
 	}
 }
 /*Media Queries for screen size of 496px*/
 
 @media screen and (max-width: 496px) {
 	.navbar {
-		padding-bottom: 34px;
+		padding-bottom: 10px;
 	}
 	.navbar-toggle {
 		margin-top: 32px;
@@ -188,4 +245,5 @@ h1 {
 	footer {
 		margin-left: .5px;
 	}
+
 }
