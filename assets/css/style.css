@@ -8,7 +8,7 @@
 
 .navbar {
 	background: #072854;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	border-color: #FF7F00;
 	border-radius: 10px;
 }
@@ -73,7 +73,7 @@ html, body {
 }
 
 #wrap {
-  min-height: 87.3%;
+  min-height: 87.0%;
 }
 
 iframe {
