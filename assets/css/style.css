@@ -87,13 +87,14 @@ h1 {
 	color: #ffffff;
 	padding: 10px;
 	margin-top: 0;
-	font-size: 24px;
+	margin-bottom: -10px;
 }
 h3 {
-	padding-top: -10px;
+	margin-top: -10px;
 	padding-left: 10px;
 	color: #ffffff;
 	font-size: 20px;
+
 
 }
 .row {
