@@ -79,8 +79,13 @@ html, body {
 
 iframe {
 	margin-bottom: 4px;
-	margin-left: 4px;
+	margin-left: 8px;
 	border-radius: 20px!important;
+	padding-right: 8px;
+	width: 98%;
+	height: 550px;
+	scroll-behavior: none;
+	
 }
 
 h1 {
@@ -104,11 +109,11 @@ h3 {
 #itunes_logo {
 	border-radius: 2px;
 	height: 31px;
-	width: 108px;
+	width: 106px;
 	margin-left: -10px;
 }
 #google_logo {
-	width: 121.98px;
+	width: 119.98px;
 	height: 47.2px;
 }
 
