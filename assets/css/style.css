@@ -79,13 +79,18 @@ html, body {
 
 iframe {
 	margin-bottom: 4px;
-	margin-left: 8px;
+	margin-left: 4px;
 	border-radius: 20px!important;
-	padding-right: 8px;
+/*	width: 98%;
+	height: 550px;
+	scroll-behavior: none;	*/
+}
+#soundCloud {
 	width: 98%;
 	height: 550px;
 	scroll-behavior: none;
-	
+	padding-right: 8px;	
+	margin-left: 8px;
 }
 
 h1 {
