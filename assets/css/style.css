@@ -87,6 +87,14 @@ h1 {
 	color: #ffffff;
 	padding: 10px;
 	margin-top: 0;
+	font-size: 24px;
+}
+h3 {
+	padding-top: -10px;
+	padding-left: 10px;
+	color: #ffffff;
+	font-size: 20px;
+
 }
 .row {
 	width: 98%;
@@ -96,6 +104,7 @@ h1 {
 	border-radius: 2px;
 	height: 31px;
 	width: 108px;
+	margin-left: -10px;
 }
 #google_logo {
 	width: 121.98px;
