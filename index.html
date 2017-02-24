@@ -3,6 +3,14 @@
 
 <head>
     <title>What's Good Houston!?</title>
+    <!-- Favicon code -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <meta property="og:image" content="assets/images/WGHP_Final.png">
+    <meta name="description" content="The What's Good Hosuton!? Podcast">
+    <meta name="author" content="Ian Shirley">
+    <meta name="keywords" content="podcast, houston, what's good houston!?, What's good, What's Good Houston!? Podcast, Houston Podcast">
+    <meta name="robots" content="index,follow">
+    <meta name="copyright" content="What's Good Houston!? Podcast"
     <!-- Facebook Pixel Code -->
     <script>
     ! function(f, b, e, v, n, t, s) {
@@ -21,16 +29,27 @@
         t.src = v;
         s = b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t, s)
-    }(window,
-        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '640988696082724', {
-        em: 'insert_email_variable,'
-    });
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '640988696082724');
     fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=640988696082724&ev=PageView&noscript=1" /></noscript>
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
+    <!-- Google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90787316-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
     <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- Latest compiled and minified CSS -->
@@ -56,7 +75,7 @@
             <!-- Contains the banner image -->
             <div class="navbar-center">
                 <a class="navbar-banner" href="index.html">
-                    <img atl="Banner" class="wghBanner" src="assets/images/wghbanner2.png">
+                    <img atl="Banner" class="wghBanner" src="assets/images/wghbanner3.png">
                 </a>
                 <!-- This conains the social media logos -->
                 <div class="nav navbar-nav navbar-right" id="navbarParent">
@@ -110,8 +129,8 @@
                         <br>
                         <br> If you like what you hear please don't forget to subscribe, and remember...
                         <h3>
-							Eat, Drink, and Listen Local
-						</h3>
+                            Eat, Drink, and Listen Local
+                        </h3>
                     </p>
                 </div>
             </div>
@@ -130,7 +149,7 @@
     <!-- Page Footer -->
     <footer class="footer">
         <div class="container">
-            &copy; Copyright 2016 What's Good, Houston!? Podcast
+            &copy; Copyright 2016 What's Good, Houston!? Podcast. All Rights Reserved.
         </div>
     </footer>
 </body>
