@@ -14,6 +14,6 @@
     ],
     "theme_color": "#2b5797",
     "background_color": "#2b5797",
-    "start_url": "wghpodcast.com",
+    // "start_url": "wghpodcast.com",
     "display": "standalone"
 }
