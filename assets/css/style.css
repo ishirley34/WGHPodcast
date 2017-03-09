@@ -264,7 +264,11 @@ h3 {
 		margin-left: 5.6%;
 	}
 	footer {
+		
 		margin-left: .5px;
+	}
+	#footerText {
+		margin-top: -10px;
 	}
 
 }
