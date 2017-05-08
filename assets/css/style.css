@@ -108,8 +108,8 @@ h3 {
 
 }
 #link {
-	color: #FF7F00;
-	margin-left: 10px;
+	color: #FF7F00!important;
+	margin-left: 10px!important;
 
 }
 .row {
